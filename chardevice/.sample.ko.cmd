@@ -1,0 +1,1 @@
+cmd_/home/prathyusha/devicedrivers/chardevice/sample.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/prathyusha/devicedrivers/chardevice/sample.ko /home/prathyusha/devicedrivers/chardevice/sample.o /home/prathyusha/devicedrivers/chardevice/sample.mod.o;  true
