@@ -1,0 +1,1 @@
+cmd_/home/prathyusha/devicedrivers/cicularbuff/sample.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/prathyusha/devicedrivers/cicularbuff/sample.ko /home/prathyusha/devicedrivers/cicularbuff/sample.o /home/prathyusha/devicedrivers/cicularbuff/sample.mod.o;  true
