@@ -1,0 +1,1 @@
+cmd_/home/prathyusha/devicedrivers/waiting/sample.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/prathyusha/devicedrivers/waiting/sample.ko /home/prathyusha/devicedrivers/waiting/sample.o /home/prathyusha/devicedrivers/waiting/sample.mod.o;  true
